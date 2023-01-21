@@ -28,7 +28,7 @@ export default function PaymentScreen() {
     // const {error} = await presentPaymentSheet();
     // this is new text
     const {error, paymentIntent} = await confirmPayment(
-      'pk_live_51KGVjiC6r0UrWGk65zncl4ZIB94DmTUwb8XJ7NIfYWGMGHWuiaFrdNinNUlF4HB9hSL6cQhkRSr1VYTWyNQB1dwN00F76aTRsW',
+      '',
       {
         paymentMethodType: 'Card',
       },
